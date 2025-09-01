@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-fadxmjr8s2zx136cvjp68",
+  "object": "chat.completion",
+  "created": 1755257257,
+  "model": "google/gemma-3-12b",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\"action\":\"click\",\"x\":735,\"y\":469,\"reason\":\"Click Groups button\"}\n```",
+        "reasoning_content": ""
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 123,
+    "completion_tokens": 28,
+    "total_tokens": 151
+  },
+  "stats": {},
+  "system_fingerprint": "google/gemma-3-12b"
+}

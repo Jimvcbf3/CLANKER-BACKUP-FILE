@@ -1,0 +1,14 @@
+[transformers] 4.55.2
+[torch] 2.6.0+cu124  cuda=True
+[huggingface_hub] 0.34.4
+[model_dir] C:\ai-auto\dots_ocr
+[files] .cache, .gitattributes, NOTICE, README.md, __init__.py, __pycache__, chat_template.json, config.json, configuration_dots.py, dots.ocr LICENSE AGREEMENT, generation_config.json, merges.txt, model-00001-of-00002.safetensors, model-00002-of-00002.safetensors, model.safetensors.index.json, modeling_dots_ocr.py, modeling_dots_ocr_vllm.py, modeling_dots_vision.py, preprocessor_config.json, special_tokens_map.json, tokenizer.json, tokenizer_config.json, vocab.json
+[preprocessor_config.json] {"min_pixels": 3136, "max_pixels": 11289600, "patch_size": 14, "temporal_patch_size": 1, "merge_size": 2, "image_mean": [0.48145466, 0.4578275, 0.40821073], "image_std": [0.26862954, 0.26130258, 0.27577711], "image_processor_type": "Qwen2VLImageProcessor", "processor_class": "DotsVLProcessor"}
+[config_module_file] C:\ai-auto\dots_ocr\configuration_dots.py
+[model_module_file] C:\ai-auto\dots_ocr\modeling_dots_ocr.py
+[config_classes] Any, PretrainedConfig, Qwen2Config, Qwen2_5_VLProcessor, AutoProcessor, DotsVisionConfig, DotsOCRConfig, DotsVLProcessor
+[model_classes] CausalLMOutputWithPast, Qwen2ForCausalLM, DotsVisionConfig, DotsOCRConfig, DotsVisionTransformer, DotsOCRForCausalLM
+[likely_model_classes] CausalLMOutputWithPast, Qwen2ForCausalLM, DotsOCRConfig, DotsOCRForCausalLM
+[processor_class] AutoProcessor
+[processor_class] DotsVLProcessor
+[processor_class] Qwen2_5_VLProcessor
